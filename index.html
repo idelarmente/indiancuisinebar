@@ -3,124 +3,110 @@
     <head>
     
         <title>Indian Cuisine Bar Restaurant Website</title>
-        
-        <style>
-body {
-  margin: 0;
-  font-family: Roboto, Helvetica, sans-serif;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: white;
-}
-
-.topnav a {
-  float: none; 
-  color: black;
-  text-align: center;
-  padding: 20px 20px;
-  text-decoration: none;
-  font-size: 12px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  color: black;
-}
-img { 
-    width:100%; 
-}
-
-.footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: white;
-    color: black;
-    text-align: left;
-}            
-</style>
-</head>
+        <link href="irmystyle.css" rel="stylesheet">
+       
+    </head>
 
 <body>
-    
-<div class="topnav" style="text-align: center">
-  <a class="active" href="#home">Home</a>
-  <a href="#NorthIndianCuisine">North Indian Cuisine</a>
-  <a href="#SouthIndianCuisine">South Indian Cuisine</a>
-  <a href="#Appetizer">Appetizer</a>
-  <a href="#Dessert">Dessert</a>
-  <a href="#Beverages">Beverages</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-</div>
-  
-    <div class="section1">  
-    <a href="#">
-    <img src="Images/%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%201@2x.png" alt="Indian Cuisine Bar Logo" style="width:128px;height:128px;">
-    </a>
-    <a href="#">Log In</a>
+
+<div id="loginmenu">        
+    <a href="#">log In</a>
+        /
     <a href="#">sign up</a>
     <input type="text" placeholder="Search..">
+</div>  
 
-    <h1 style=text-align:center> Welcome to Indian Cuisine Bar</h1>
-
-    <img src="Images/anise-aroma-art-277253.jpg" alt=Indianfood1>
-    <img src="Images/adult-blur-bread-351706.jpg" alt=Indianfood2>
-    <img src="Images/bowl-broth-cooking-209540.jpg" alt=Indianfood3>
-    <img src="Images/buffet-delicious-dinner-5928.jpg" alt=Indianfood4>
- </div>
- 
-    <div class="section2">    
-    <h2> About our Food </h2>
-        <img src="Images/close-up-cuisine-delicious-958547.jpg" alt=Indianfood5>
-            <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.    
-            </p>
- </div>
+<div id="header">      
     
- <div class="section3">    
-    <h2> Meet the Chef </h2>
-        <img src="Images/bar-barista-business-887827.jpg" alt=IndianChef>
-            <p>
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-            </p>
-</div>
-    <div class="section4">
-    <img src="Images/chicken-close-up-cooking-263173.jpg" alt=Indianfood6>
-    <img src="Images/close-up-cuisine-delicious-958547.jpg" alt=Indianfood7>
-    <img src="Images/dish-egg-food-54455.jpg" alt=Indianfood8>
-    <br>
-    <a href="#">Book your table</a>
-    <br>
+    <div class="imglogo">  
+        <a href="#"><img src="Images/%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%201@2x.png" alt="Indian Cuisine Bar Logo"></a>
     </div>
+
+    <div id="topnav">
+            <a href="#home">Home</a>
+            <a href="#ourfood">Our Food</a>
+            <a href="#ourchef">Our Chef</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+    </div>
+</div>    
+
+<div id="welcomeimage">
+    <h1> Welcome to Indian Cuisine Bar</h1>
+    <a href="#">Book your table!</a>     
+    
+</div>
+    
+
+<div class="row" id="ourfood">    
+    <div class="column" id="ourfood-img"></div>
+    <div class="column">
+        <div class="content-container">
+            <h2> Our Food </h2>        
+            <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            </p>
+            <a href="#">Menu</a>
+        </div>
+    </div>
+</div>   
+    
+ <div class="row" id="ourchef">    
+    <div class="column">
+        <div class="content-container">     
+            <h2> Meet the Chef </h2>     
+            <p>
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+            </p>
+            <a href="#">About</a> 
+        </div>
+    </div>
+     
+    <div class="column" id="ourchef-img"></div>
+</div>    
+<div class="row">
+  
+    <div class="column"><img src="Images/buffet-delicious-dinner-5928.jpg" alt=Indianfood6></div>   
+    <div class="column"><img src="Images/bowl-broth-cooking-209540.jpg" alt=Indianfood8></div>
+   
+  
+</div>
  
- <div class="section5">     
+ <div class="reviews" id="reviews">     
   <h2>Reviews</h2>
         <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         </p>  
 </div>
      
-<div class="footer">
-  <img src="Images/584ac2d03ac3a570f94a666d.png" style="width:30px;height:30px;" alt=facebookicon>
-  <img src= "Images/if_new-google-favicon_682665.png" style="width:30px;height:30px;" alt=googleicon>    
-  <img src="Images/twitter-logo-button.png" style="width:30px;height:30px;" alt=twittericon>
-  <br>  
-  <a href="#">Email</a><br>
-  <a href="#">Contact</a><br>
-  <a href="#">Careers</a>  
-  <br> Address: 1310 15th Ave NE, Calgary, Alberta
-  <br> Time: 11:00AM - 10:00PM <br>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.7658400040427!2d-114.05692098479796!3d51.057411351325825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716559ff4cc4f9%3A0xd23567a55719ea8a!2s611+Edmonton+Trail+NE%2C+Calgary%2C+AB+T2E+3J3!5e0!3m2!1sen!2sca!4v1528223512044" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-  <p style="font-size:10px"> All images are from PEXEL and is copyrighted. </p>
+<div class="footer" id="contact">
+    <div class="row">
+        <div class="column">
+            <div>
+    <a href="#"><img src="Images/584ac2d03ac3a570f94a666d.png" style="width:30px;height:30px;" alt=facebookicon></a>
+    <a href="#"><img src= "Images/if_new-google-favicon_682665.png" style="width:30px;height:30px;" alt=googleicon></a>
+    <a href="#"><img src="Images/twitter-logo-button.png" style="width:30px;height:30px;" alt=twittericon></a>
+            </div>
+            <div>
+    <a href="#">Email</a>
+    
+    <a href="#">Contact</a>
+                
+    <a href="#">Careers</a>  
+            </div>
+            <div>
+    <br> Address: 1310 15th Ave NE, Calgary, Alberta
+    <br> Time: 11:00AM - 10:00PM <br>
+    <p style="font-size:10px; text-align: center"> All images are from PEXEL and is copyrighted. </p>            
+            </div>
+                
+        </div>
+        <div class="column">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.7658400040427!2d-114.05692098479796!3d51.057411351325825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716559ff4cc4f9%3A0xd23567a55719ea8a!2s611+Edmonton+Trail+NE%2C+Calgary%2C+AB+T2E+3J3!5e0!3m2!1sen!2sca!4v1528223512044" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        
+    </div>
 </div>   
 
-     </body>        
+    </body>
 </html>
